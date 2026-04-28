@@ -21,11 +21,15 @@ public class GameBoard {
         //FRAME LEVEL
         JLabel level = new JLabel("level 1",JLabel.CENTER);
         frame.add(level,BorderLayout.SOUTH);
+
+
+        //images
+        ImageIcon hole = new ImageIcon("resources/hole.png");
         
 
 
         //gridmaking
-        board.add(new JButton());
+        board.add(new JButton(hole));
         board.add(new JButton());
         board.add(new JButton());
         board.add(new JButton());
