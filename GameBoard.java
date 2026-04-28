@@ -12,6 +12,11 @@ public class GameBoard {
 
         frame.setLayout(new BorderLayout());//rows and colums
         JPanel board = new JPanel();
+        board setLayout(new GridLayout(4,5));
+        frame.add(board);
+        frame.setVisible(true);
+
+
     }
 
 
