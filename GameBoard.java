@@ -25,6 +25,9 @@ public class GameBoard {
 
         //images
         ImageIcon hole = new ImageIcon("resources/hole.png");
+        ImageIcon smallsnow = new ImageIcon("resources/snowball_small.png");
+        ImageIcon bigsnow = new ImageIcon("resources/snowball_large.png");
+        ImageIcon bluehead = new ImageIcon("resources/snowman_blue.png");
         
 
 
@@ -33,6 +36,12 @@ public class GameBoard {
         board.add(new JButton(hole));
         board.add(new JButton(hole));
         board.add(new JButton(hole));
+        board.add(new JButton(bluehead));
+
+        board.add(new JButton(smallsnow));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
         board.add(new JButton(hole));
 
         board.add(new JButton(hole));
@@ -45,13 +54,7 @@ public class GameBoard {
         board.add(new JButton(hole));
         board.add(new JButton(hole));
         board.add(new JButton(hole));
-        board.add(new JButton(hole));
-
-        board.add(new JButton(hole));
-        board.add(new JButton(hole));
-        board.add(new JButton(hole));
-        board.add(new JButton(hole));
-        board.add(new JButton(hole));
+        board.add(new JButton(bigsnow));
         
         
         frame.add(board);
