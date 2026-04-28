@@ -30,28 +30,28 @@ public class GameBoard {
 
         //gridmaking
         board.add(new JButton(hole));
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
 
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
 
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
 
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
-        board.add(new JButton());
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
         
         
         frame.add(board);
