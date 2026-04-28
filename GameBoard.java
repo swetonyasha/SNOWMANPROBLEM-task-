@@ -21,6 +21,12 @@ public class GameBoard {
         //FRAME LEVEL
         JLabel level = new JLabel("level 1",JLabel.CENTER);
         frame.add(level,BorderLayout.SOUTH);
+        
+
+
+        //gridmaking
+        board.add(new JButton());
+        frame.add(board);
         frame.setVisible(true);
 
         
