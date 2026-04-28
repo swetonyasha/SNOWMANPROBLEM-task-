@@ -1,5 +1,5 @@
 import java.awt.*;
-import java.swing.*;
+import javax.swing.*;
 
 import javax.swing.JFrame;
 
@@ -12,7 +12,7 @@ public class GameBoard {
 
         frame.setLayout(new BorderLayout());//rows and colums
         JPanel board = new JPanel();
-        board setLayout(new GridLayout(4,5));
+        board.setLayout(new GridLayout(4,5));
         frame.add(board);
         frame.setVisible(true);
 
