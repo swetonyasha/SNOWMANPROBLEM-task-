@@ -26,7 +26,32 @@ public class GameBoard {
 
         //gridmaking
         board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        board.add(new JButton());
+        
+        
         frame.add(board);
+
         frame.setVisible(true);
 
         
