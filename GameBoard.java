@@ -33,16 +33,10 @@ public class GameBoard {
 
         //gridmaking
         board.add(new JButton(hole));
-        board.add(new JButton(hole));
-        board.add(new JButton(hole));
-        board.add(new JButton(hole));
-        board.add(new JButton(bluehead));
-
         board.add(new JButton(smallsnow));
         board.add(new JButton(hole));
         board.add(new JButton(hole));
         board.add(new JButton(hole));
-        board.add(new JButton(hole));
 
         board.add(new JButton(hole));
         board.add(new JButton(hole));
@@ -51,6 +45,12 @@ public class GameBoard {
         board.add(new JButton(hole));
 
         board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+        board.add(new JButton(hole));
+
+        board.add(new JButton(bluehead));
         board.add(new JButton(hole));
         board.add(new JButton(hole));
         board.add(new JButton(hole));
